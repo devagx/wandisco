@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LocalCustomerDatabaseData and DataFactory level tests where custom exceptions are thrown" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-01T19:26:26" hostname="DESKTOP-0K2JLCA" time="4.3">
+  <properties/>
+  <testcase name="Test to ensure the LocalCustomerDatabaseData and DataFactory levels are tested for custom CreateCustomerDataException handling" classname="com.wandisco.oneui.refactor.LocalCustomerDatabaseDataTests$CustomExceptionsThrown" time="4.3"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
