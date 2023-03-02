@@ -172,8 +172,8 @@ class CustomerDataSyncTest {
     @DisplayName("Business account tests")
     class BusinessAccounts {
         @Test
-        @DisplayName("Local customer data exists")
-        void syncCustomerData_daysSinceLastActiveIs10_deleteMethodIsCalled() throws LoadCustomerDataException, DeleteCustomerDataException, UpdateCustomerDataException, CreateCustomerDataException {
+        @DisplayName("Local customer data exists and sync has not ran for 10 days, so record is NOT deleted")
+        void syncCustomerData_daysSinceLastActiveIs10_deleteMethodIsNotCalled() throws LoadCustomerDataException, DeleteCustomerDataException, UpdateCustomerDataException, CreateCustomerDataException {
             RemoteData remoteData = new RemoteData(
                     "1",
                     "johnsmith",
