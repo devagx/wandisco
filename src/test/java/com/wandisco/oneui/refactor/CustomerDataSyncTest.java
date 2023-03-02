@@ -97,7 +97,7 @@ class CustomerDataSyncTest {
         }
 
         @Test
-        @DisplayName("Local customer data does not exist and sync has not ran for 10 days, so exception is thrown due to the data not existing for deletion")
+        @DisplayName("Local customer data does not exist and sync has not ran for 10 days, so crud methods not called due to the data not existing for deletion (decision made not to raise exception here")
         void syncCustomerData_remoteDataNameIsBlank_crudMethodsNotCalled() throws LoadCustomerDataException, CreateCustomerDataException, UpdateCustomerDataException, DeleteCustomerDataException {
             RemoteData remoteData = new RemoteData(
                     "1",
