@@ -22,7 +22,7 @@ public class LocalCustomer {
     private final String notes;
 
 
-    public LocalCustomer(LocalCustomerBuilder builder) {
+    private LocalCustomer(LocalCustomerBuilder builder) {
         this.externalId = builder.externalId;
         this.isCompanyAccount = builder.isCompanyAccount;
         this.companyName = builder.companyName;
